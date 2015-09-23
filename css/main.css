@@ -11,6 +11,11 @@ body{
 	background-color: #424242;
 	padding: 8px 0 22px 0;
 }
+.upheader a{
+  width: 100px;
+  height: 50px;
+  display: block;
+}
 .pullRight{
 	margin: 0;
 	float: right;
@@ -18,14 +23,116 @@ body{
 .pullRight li{
 	display: inline-block;
 }
+.logo{
+  display: inline-block;
+  width: 136px;
+  height: 74px;
+}
 .pullRight li a{
 	padding: 0 15px;
 	color: #fff;
-	font-family: 'Myriad Pro';
+	font-family: 'Myriad';
 	font-size: 16px;
 	margin: 0;
 	text-decoration: none;
 }
 .pullRight li a:hover{
 	text-decoration: none;
+}
+.downHeader{
+	background: linear-gradient(to bottom, #fff, #ebebeb);
+	padding: 20px 0;
+}
+.searchBar{
+  margin: 16px 40px;
+  position: absolute;
+	display: inline-block;
+}
+.search{
+	width: 328px;
+	height: 33px;
+	border: 5px solid #79b260;
+
+}
+.btnSearch{
+	background-color: #79b260;
+	padding: 14px 57px 14px 62px;
+	border: 1px solid #79b260;
+	color: #fff
+}
+.checkout{
+  float: right;
+  display: inline-block;
+  font-family: 'Myriad';
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+}
+.checkout .cart{
+  display: inline-block;
+  position: absolute;
+  background-image: url(../img/sprite.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 27px;
+  height: 29px;
+}
+.checkout .carTxt{
+  margin-left: 30px;
+  display: inline;
+  padding: 5px;
+  font-size: 23px;
+  color: #6d6d6d;
+}
+.checkout .items{
+  font-size: 13px;
+  color: #6d6d6d;
+}
+.checkout .price{
+  display: inline-block;
+  font-size: 27px;
+  font-weight: bold;
+  color: #6d6d6d;
+  padding-right: 14px;
+  margin-top: 5px;
+}
+.checkout .btnChkout{
+  display: inline-block;
+  background-color: #393939;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #393939;
+  border-radius: 3px;
+  padding: 2px 10px;
+}
+.wishlist{
+  position: relative;
+  float: right;
+  text-align: center;
+  padding: 0 15px;
+}
+.wishlist .star{
+  display: block;
+  margin-left: 30px;
+  background-image: url(../img/sprite.png);
+  background-position: 0px -34px;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 25px;
+}
+.wishlist .twenty{
+  right: 20px;
+  top: 20px;
+  position: absolute;
+  background-color: #79b260;
+  padding: 1px 7px;
+  border-radius: 30px;
+  font-style: normal;
+  font-size: 13px;
+  color: #fff;
+}
+.wishlist .wishTxt{
+  display: block;
+  font-size: 21px;
+  color: #6d6d6d;
+  margin: 10px 10px;
 }
