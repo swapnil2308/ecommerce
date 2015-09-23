@@ -1,0 +1,31 @@
+/* global css starts here */
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+body{
+	margin: 0;
+}
+/* header section starts here */
+.upHeader{
+	background-color: #424242;
+	padding: 8px 0 22px 0;
+}
+.pullRight{
+	margin: 0;
+	float: right;
+}
+.pullRight li{
+	display: inline-block;
+}
+.pullRight li a{
+	padding: 0 15px;
+	color: #fff;
+	font-family: 'Myriad Pro';
+	font-size: 16px;
+	margin: 0;
+	text-decoration: none;
+}
+.pullRight li a:hover{
+	text-decoration: none;
+}
